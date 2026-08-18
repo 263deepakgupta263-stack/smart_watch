@@ -1,0 +1,45 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>FUTURE X Smart Watch</title>
+<style>
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Arial;background:#080808;color:#fff}
+nav{position:sticky;top:0;z-index:5;padding:18px 6%;background:#080808;border-bottom:2px solid #f5a623;display:flex;gap:28px;align-items:center;flex-wrap:wrap}
+.logo{font-size:25px;font-weight:bold;margin-right:auto}nav a{color:#ddd;text-decoration:none;font-size:14px}nav a:hover{color:#f5a623}
+section{padding:65px 6%;scroll-margin-top:70px}.hero{min-height:570px;display:flex;align-items:center;gap:40px;background:linear-gradient(135deg,#07111f,#123454)}
+.hero>div{flex:1}.hero img{width:45%;max-width:520px;border-radius:18px}.blue{color:#2f7df6}.orange{color:#f5a623}
+h1{font-size:56px;margin:10px 0}h2{font-size:38px}.btn,button{display:inline-block;padding:13px 22px;border-radius:8px;border:0;text-decoration:none;font-weight:bold;cursor:pointer}.primary{background:#f5a623;color:#111}.secondary{background:#111;color:#fff;border:1px solid #f5a623;margin-left:8px}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}.card{background:#111;border:1px solid #444;border-radius:16px;padding:25px}.products{background:#eaf7fb;color:#142238}.product{background:#fff;border-radius:15px;padding:18px;text-align:center}.product img{width:100%;height:190px;object-fit:contain;background:#f5f5f5;border-radius:10px}.price{font-size:22px;font-weight:bold;color:#df8b00;margin:10px}.buy{background:#142238;color:#fff}.form input,.form textarea{width:100%;padding:13px;margin:7px 0;background:#191919;border:1px solid #444;border-radius:8px;color:white}.form textarea{height:110px}.two{display:grid;grid-template-columns:1fr 1fr;gap:25px}.pay{text-align:center}.checks{display:grid;grid-template-columns:1fr 1fr;gap:15px;margin-top:25px}footer{text-align:center;padding:25px;background:#111;color:#999}
+@media(max-width:750px){.hero,.two{display:block}.hero img{width:100%;margin-top:30px}.grid{grid-template-columns:1fr}.checks{grid-template-columns:1fr}h1{font-size:42px}}
+</style></head><body>
+<nav><div class="logo">FUTURE X</div>
+<a href="#home">HOME</a><a href="#about">ABOUT</a><a href="#products">PRODUCTS</a><a href="#payment">PAYMENT</a><a href="#ssl">SSL</a><a href="#contact">CONTACT</a></nav>
+
+<section id="home" class="hero"><div><b class="blue">SMART WATCH BAND WITH AIR DISPLAY</b><h1>FUTURE X1</h1>
+<p>Smart wearable technology with air display, gesture control, health monitoring, Bluetooth connectivity and long battery life.</p>
+<a class="btn primary" href="#products">BUY NOW</a> <a class="btn secondary" href="#about">EXPLORE</a></div>
+<img src="images/future-x-smartwatch.png" alt="FUTURE X smartwatch"></section>
+
+<section id="about"><h2>About <span class="orange">FUTURE X</span></h2><div class="two">
+<div class="card"><h3 class="orange">ABOUT FUTURE X</h3><p>FUTURE X is a modern smartwatch brand focused on useful, simple and stylish wearable technology for everyday life.</p><h3>Our Goal</h3><p>To make smart wearable features easy to use and accessible.</p></div>
+<div class="card"><h3 class="orange">OUR PRODUCT</h3><p>FUTURE X1 is designed with air display, gesture control, health tracking, Bluetooth connectivity and a comfortable band.</p></div></div></section>
+
+<section id="products" class="products"><h2>Our <span class="orange">Products</span></h2><div class="grid">
+<div class="product"><img src="images/future-x-smartwatch.png"><h3>FUTURE X1</h3><div class="price">₹2,999</div><p>Air Display • Bluetooth<br>Health Tracking • Long Battery</p><button class="buy" onclick="selectProduct('FUTURE X1')">BUY NOW</button></div>
+<div class="product"><img src="images/future-x-smartwatch.png"><h3>FUTURE X1 PRO</h3><div class="price">₹3,499</div><p>Air Display • Bluetooth<br>Health Tracking • Long Battery</p><button class="buy" onclick="selectProduct('FUTURE X1 PRO')">BUY NOW</button></div>
+<div class="product"><img src="images/future-x-smartwatch.png"><h3>FUTURE X1 SPORT</h3><div class="price">₹4,499</div><p>Air Display • Bluetooth<br>Health Tracking • Long Battery</p><button class="buy" onclick="selectProduct('FUTURE X1 SPORT')">BUY NOW</button></div>
+</div></section>
+
+<section id="payment"><h2>Payment <span class="orange">Methods</span></h2><div class="grid">
+<div class="card pay">💳<h3>Credit / Debit Card</h3><p>Quick online card payment.</p></div><div class="card pay">📱<h3>UPI Payment</h3><p>Fast UPI checkout.</p></div><div class="card pay">🏦<h3>Net Banking</h3><p>Secure bank payment.</p></div>
+<div class="card pay">👛<h3>Digital Wallet</h3><p>Convenient wallet payment.</p></div><div class="card pay">🚚<h3>Cash on Delivery</h3><p>Pay when your order arrives.</p></div><div class="card pay">🔒<h3>Secure Checkout</h3><p>Protected checkout process.</p></div>
+</div></section>
+
+<section id="ssl"><div class="card"><h2>🔒 Secure Socket Layer <span class="orange">(SSL)</span></h2><p>SSL encrypts information transferred between the customer's browser and the website. It helps protect sensitive information and supports secure online transactions.</p><div class="checks"><div>✓ Encrypts customer information</div><div>✓ Protects online payment data</div><div>✓ Uses HTTPS secure connection</div><div>✓ Builds customer trust</div></div></div></section>
+
+<section id="contact"><div class="two"><div class="card"><h2>Get in <span class="orange">Touch</span></h2><p>For product enquiries, orders and support, contact FUTURE X.</p><p>Phone: +91 98765 43210</p><p>Email: support@futurex1.com</p><p>Location: Mumbai, India</p></div>
+<div class="card form"><h2>Contact <span class="orange">Form</span></h2><input id="name" placeholder="Name"><input id="email" placeholder="Email"><textarea id="msg" placeholder="Message"></textarea><button class="buy" onclick="sendMessage()">SUBMIT</button><p id="result" class="orange"></p></div></div></section>
+<footer>© 2026 FUTURE X Smart Watch | All Rights Reserved</footer>
+<script>
+function selectProduct(p){alert(p+" selected. Please complete your order through FUTURE X support.");}
+function sendMessage(){let n=document.getElementById('name').value,e=document.getElementById('email').value,m=document.getElementById('msg').value;document.getElementById('result').textContent=(n&&e&&m)?'Thank you, '+n+'! Your message has been submitted.':'Please fill all fields.';}
+</script></body></html>
